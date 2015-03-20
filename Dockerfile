@@ -11,3 +11,5 @@ ADD docker/images/php/container-files /
 RUN curl -sS https://getcomposer.org/installer | php
 RUN mv composer.phar /usr/bin/composer
 
+RUN composer global require "fxp/composer-asset-plugin:1.0.0-beta4"
+
