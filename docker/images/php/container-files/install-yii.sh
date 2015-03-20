@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cd /var/www
-composer install -n -d app/
+cd /var/www/app
+composer install -n
 
 #rm -fr /var/www/wp/wp-content
 #cd /var/www/wp
