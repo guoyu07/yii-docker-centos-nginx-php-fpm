@@ -1,0 +1,6 @@
+.idea/
+.vagrant/
+proxy/.vagrant/
+proxy/Vagrantfile.proxy
+app/vendor
+
